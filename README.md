@@ -1,2 +1,2 @@
 # Developments
-HTML.CSS,JS. PYTHON 
+HTML.CSS,JS
