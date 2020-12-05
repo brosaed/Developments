@@ -1,0 +1,223 @@
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+.hero-image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/slider.jpeg);
+  height: 70%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.hero-text {
+  text-align: left;
+  position: absolute;
+  letter-spacing: 2px;
+  top: 50%;
+  left: 42%;
+  transform: translate(-50%, -50%);
+  color: #fbbd61;
+}
+.hero-text h5{
+  text-align: left;
+  position: absolute;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-top: -20px;
+  font-size: 15px;
+  line-height: 25px;
+  font-weight: 500;
+}
+@media screen and (max-width: 500px) {
+  .hero-text h5 {
+    display: none;
+  }
+}
+.hero-text h1{
+  letter-spacing: 3px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-size: 50px;
+  line-height: 45px;
+  font-weight: 400;
+  color:#fff;
+}
+.hero-text p{
+  color: #fff;
+}
+
+.hero-text button {
+  margin-left: auto;
+  margin-top: 16px;
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 13px 32px;
+  color: black;
+  background-image: linear-gradient(to left,#fbbd61,#ec7532);
+  /*background-color: #ea7532;*/
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  text-align: left;
+  cursor: pointer;
+  font-size: 15px;
+  border-radius: 30px;
+}
+
+.hero-text button:hover {
+  background-image: linear-gradient(to right,#fbbd61,#ec7532);
+  /*background-color: #ec7532;*/
+  color: white;
+}
+.responsive_row{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/bgs1.jpg);
+  color: #eee;
+  padding: 120px;
+}
+.responsive_row h2{
+  margin-bottom: 20px;
+  font-size: 40px;
+  color: #fe7900;
+}
+.responsive_row p{
+  margin-bottom: 20px;
+  text-align: justify;
+}
+.reponsive_column{
+  float: left;
+  width: 50%;
+  padding: 30px;
+  height: 300px;
+}
+
+.responsive_row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+@media screen and (max-width: 500px) {
+  .responsive_row {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .Plot-section {
+    display: none;
+  }
+}
+@media screen and (max-width: 500px) {
+  .Plot-section {
+    background-color: #f2f2f2;
+    padding: 40px;
+  }
+  .Plot-section h1 {
+    text-align: center;
+    line-height: normal;
+  }
+  .Plot-section h1 p{
+    text-align: center;
+    font-size: 18px;
+}
+
+}
+/*Casts section*/
+.cast-area{
+  background-color: #f2f2f1;
+  padding-bottom: 30px;
+}
+.cast-area h1{
+  font-size: 40px;
+  color: #fe7900;
+}
+.casts-section{
+  display:flex;
+  flex-wrap:wrap;
+  justify-content: center;
+  padding: 0 50px;
+}
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+.container {
+  padding:10px 20px;
+}
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.caption {
+  color: grey;
+}
+ #stars{
+  text-align: center;
+  margin-bottom: 10px;
+  padding: 30px;
+}
+.casts-section > div{
+  background-color:#fff;
+  font-size:20px;
+  margin:20px;
+  padding:0px;
+  width:250px;
+}
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+/*Box Office*/
+.Box-office{
+  padding: 50px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/bgs1.jpg);
+}
+.Box-office h1{
+  text-align: center;
+  color:#fff;
+  margin-bottom: 15px;
+}
+.Box-office p{
+  text-align: center;
+  color:#fff;
+}
+.data-table{
+  padding: 45px;
+}
+@media screen and (max-width: 650px) {
+  .data-table {
+    padding: 10px;
+  }
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+  border: 1px solid #ddd;
+}
+th{
+  background-color: #9daa9a;
+}
+th, td {
+  text-align: left;
+  padding: 8px;
+}
+tr:nth-child(even){
+  background-color: #f2f2f2;
+}
+tr:nth-child(odd){
+  background-color: #d7d0d0;
+}
+.order_now{
+  padding: 50px;
+}
+.footer-section{
+  background-color: #fff;
+  padding: 25px;
+  text-align:center;
+}
