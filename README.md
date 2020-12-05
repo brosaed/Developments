@@ -1,2 +1,2 @@
 # Developments
-HTML.CSS,JS. PYTHON 
+Movie web developed using hTML, CSS and some JS
